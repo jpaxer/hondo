@@ -1,0 +1,148 @@
+{
+    "Tasks Comms": [
+        {
+            "tag": "Time",
+            "patterns": ["what's the time", "tell me the time", "time", "get the current time"],
+            "responses": [""]
+        },
+        {
+            "tag": "Day",
+            "patterns": ["what's the day", "tell me the day", "day", "what day is it", "what day is today"],
+            "responses": [""]
+        },
+        {
+            "tag": "Month",
+            "patterns": ["what's the month", "tell me the month", "month", "what month is it", "what month is this month"],
+            "responses": [""]
+        },
+        {
+            "tag": "Date",
+            "patterns": ["what's the date", "tell me the date", "date", "get the current date", "what's today's date", "what date is today"],
+            "responses": [""]
+        },
+        {
+            "tag": "Coinflip",
+            "patterns": ["flip a coin", "coinflip", "coin flip", "do a coin flip", "spin a coin", "can you flip a coin", "can you do a coin flip"],
+            "responses": [""]
+        },
+        {
+            "tag": "Diceroll",
+            "patterns": ["roll a dice", "do a dice roll", "dice roll", "can you do a dice roll", "can you roll a dice"],
+            "responses": [""]
+        },
+        {
+            "tag": "Jokes",
+            "patterns": ["tell me a joke", "give me a joke", "joke", "cheer me up", "make me laugh", "can you tell me a joke"],
+            "responses": [""]
+        },
+        {
+            "tag": "Programming Jokes",
+            "patterns": ["tell me a programming joke", "programming joke", "give me a coding joke", "coding joke", "tell me a geeky joke", "tell me a joke about programming", "tell me a programming related joke"],
+            "responses": [""]
+        },
+        {
+            "tag": "Blackjack",
+            "patterns": ["play blackjack with me", "blackjack", "start a game of blackjack", "play blackjack", "lets play blackjack"],
+            "responses": [""]
+        },
+        {
+            "tag": "Repeat After Me",
+            "patterns": ["repeat after me", "repeat me", "repeat what i say", "say what i say", "say everything i say", "repeat everything i say"],
+            "responses": [""]
+        },
+        {
+            "tag": "Google Search",
+            "patterns": ["search google", "google", "find on google", "ask google", "search"],
+            "responses": [""]
+        },
+        {
+            "tag": "You.com Search",
+            "patterns": ["search you.com", "you.com", "ask you", "ask you.com", "find on you.com", "find on you"],
+            "responses": [""]
+        },
+        {
+            "tag": "Youtube",
+            "patterns": ["play on youtube", "youtube play", "play a youtube video", "play youtube", "play "],
+            "responses": [""]
+        },
+        {
+            "tag": "Wikipedia",
+            "patterns": ["what is", "who is", "wiki", "wikipedia", "who's", "what's"],
+            "responses": [""]
+        },
+        {
+            "tag": "Screenshots",
+            "patterns": ["take a screenshot", "do a screenshot", "screenshot", "get a screenshot", "make a screenshot"],
+            "responses": [""]
+        },
+        {
+            "tag": "Calculator",
+            "patterns": ["calculate ", "solve", "figure out", "equation", "solve the equation", "do the math equation"],
+            "responses": [""]
+        },
+        {
+            "tag": "Volume Up",
+            "patterns": ["turn up the volume", "turn the volume up", "raise the volume", "volume up", "raise volume", "make it louder", "louder", "turn it up", "make the volume louder"],
+            "responses": [""]
+        },
+        {
+            "tag": "Volume Down",
+            "patterns": ["turn down the volume", "turn the volume down", "lower the volume", "volume down", "lower volume", "make it quieter", "quieter", "turn it down", "make the volume quieter"],
+            "responses": [""]
+        },
+        {
+            "tag": "Mute Volume",
+            "patterns": ["mute it", "mute the volume", "mute", "mute the computer"],
+            "responses": [""]
+        },
+        {
+            "tag": "Read This",
+            "patterns": ["read this", "read to me", "read", "read my clipboard to me", "read me what's on my clipboard", "read me my clipboard", "read what i copied"],
+            "responses": [""]
+        },
+        {
+            "tag": "Open App",
+            "patterns": ["open", "open the app", "open app", "start", "open the app"],
+            "responses": [""]
+        },
+        {
+            "tag": "Close App",
+            "patterns": ["close", "quit", "close the app", "stop", "close app"],
+            "responses": [""]
+        },
+        {
+            "tag": "Create Reminder",
+            "patterns": ["make a reminder", "create a reminder", "new reminder", "set a new reminder"],
+            "responses": [""]
+        },
+        {
+            "tag": "Remind",
+            "patterns": ["remind", "tell me my reminder", "what's my reminder", "can you read me my reminder"],
+            "responses": [""]
+        },
+        {
+            "tag": "News",
+            "patterns": ["tell me the news", "what's the news", "news", "can you get the news for me", "get me the news"],
+            "responses": [""]
+        },
+        {
+            "tag": "Weather",
+            "patterns": ["what's the weather", "tell me the current weather", "weather", "can you get the weather for me", "get the current weather"],
+            "responses": [""]
+        },
+        {
+            "tag": "Start My Day",
+            "patterns": ["start my day", "do my morning routine", "start day", "begin my day", "start up my day"],
+            "responses": [""]
+        },
+        {
+            "tag": "Work Mode",
+            "patterns": ["enter work mode", "i need to work", "work", "work mode", "activate work mode", "start up mork mode"],
+            "responses": [""]
+        },
+        {
+            "tag": "Ru Mode",
+            "patterns": ["enter russian mode", "russian mode", "activate russian mode", "start up russian mode"]
+        }
+    ]
+}
