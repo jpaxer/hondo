@@ -1,4 +1,6 @@
+print("Importing Modules...")
 import json
+print("Imported json")
 import librosa
 import nltk
 import numpy

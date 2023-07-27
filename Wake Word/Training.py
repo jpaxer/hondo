@@ -4,7 +4,7 @@ import numpy
 import os
 import pandas
 import sounddevice
-import tensorflow
+#import tensorflow
 
 from scipy.io.wavfile import write
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
@@ -25,6 +25,7 @@ def recWW(dir, times):
         write(dir + str(recordingName) + ".wav", soundRate, wwRec)
         input(f"Press ENTER to continue - {nthTime + 1}/{times}.")
 
+
 def recBD(dir, times):
     input("Press ENTER to record.")
     for nthTime in range(times):
@@ -36,7 +37,7 @@ def recBD(dir, times):
         write(dir + str(recordingName) + ".wav", soundRate, bdRec)
         print(f"{nthTime + 1}/{times}.")
 
-recBD("Wake Word/Background Data/", 50)
+#recWW("Wake Word/WW Data/", 40)
 #WW iterations: Hondo J, Hey hondo J, hello hondo J, activate hondo J, hondo turn on J, hi hondo J
 
 #processing function
@@ -81,7 +82,7 @@ def trainModel():
         metrics = ["accuracy"]
     )
     trainingHistory = model.fit(xTraining, yTraining, epochs = 1000)
-    model.save("Model.h5")
+    model.save("Wake Word/Model.h5")
     trainingScore = model.evaluate(xTesting, yTesting)
     print(trainingHistory)
     print(trainingScore)
@@ -89,3 +90,5 @@ def trainModel():
     confusionMatrix = confusion_matrix(numpy.argmax(yTesting, axis = 1), yPrediction)
     print(classification_report(numpy.argmax(yTesting, axis = 1), yPrediction))
     ConfusionMatrixDisplay(confusionMatrix, classes = ["0 - Not detected", "1 - Detected"])
+
+trainModel()
