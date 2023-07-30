@@ -2,12 +2,19 @@ print("Importing Modules...")
 import json
 print("Imported json")
 import librosa
+print("Imported librosa")
 import nltk
+print("Imported nltk")
 import numpy
+print("Imported numpy")
 import pickle
+print("Imported pickle")
 import random
+print("Imported random")
 import re
-import sounddevice
+print("Imported re")
+import sounddevice 
+print("Imported sounddevice")
 
 from nltk import WordNetLemmatizer
 from scipy.io.wavfile import write
@@ -15,6 +22,8 @@ from keras.models import load_model
 
 from Tasks import *
 from Engine import speak
+
+# Line 20 - 24 take a while to run
 
 #connectionCheck()
 
